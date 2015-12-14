@@ -8,7 +8,7 @@ div.holder{
   position:relative;
   height:230px;
   min-width:100%;
-  overflow:auto;
+  overflow:hidden;
   background:url('background.svg') no-repeat left center / 65% auto;
 }
 div.footer{
@@ -43,24 +43,34 @@ div.calendar>ul>li>a{
   position:absolute;
   bottom:100%;
   left:50%;
-  transform:translate(-50%,0);
+  -webkit-transform:translate(-50%,0);
+      -ms-transform:translate(-50%,0);
+          transform:translate(-50%,0);
   color:white;
   font-size:.8em;
-  transition:all 100ms ease;
+  -webkit-transition:all 100ms ease;
+          transition:all 100ms ease;
 }
 div.calendar>ul>li:hover>a{
   opacity:.3;
+  filter:alpha(opacity=30);
 }
 div.calendar>ul>li>span,div.calendar>ul>ol>li>span{
   max-width:170px;
   position:absolute;
   top:0;
   left:0;
-  transition:all 100ms ease;
-  transform:rotate(-90deg) translate(0,0);
-  transform-origin: top left;
+  -webkit-transition:all 100ms ease;
+          transition:all 100ms ease;
+  -webkit-transform:rotate(-90deg) translate(0,0);
+      -ms-transform:rotate(-90deg) translate(0,0);
+          transform:rotate(-90deg) translate(0,0);
+  -webkit-transform-origin: top left;
+      -ms-transform-origin: top left;
+          transform-origin: top left;
   visibility:hidden;
   opacity:0;
+  filter:alpha(opacity=0);
   background:#41B649;
   color:white;
   padding:4px 8px;
@@ -68,8 +78,11 @@ div.calendar>ul>li>span,div.calendar>ul>ol>li>span{
 }
 div.calendar>ul>li:hover>span,div.calendar>ul>ol>li:hover>span{
   visibility: visible;
-  transform:rotate(-90deg) translate(10px,0);
+  -webkit-transform:rotate(-90deg) translate(10px,0);
+      -ms-transform:rotate(-90deg) translate(10px,0);
+          transform:rotate(-90deg) translate(10px,0);
   opacity:1;
+  filter:alpha(opacity=100);
 }
 div.calendar>ul>li:before,div.calendar>ul>ol>li:before{
   display:inline-block;
@@ -94,7 +107,9 @@ div.calendar>ul>li:after,div.calendar>ul>ol>li:after{
   width:24px;
   background:#F2DA71;
   position:absolute;
-  transform:translate(0,-75%);
+  -webkit-transform:translate(0,-75%);
+      -ms-transform:translate(0,-75%);
+          transform:translate(0,-75%);
   z-index:1;
   top:50%;
   left:50%;
@@ -103,7 +118,9 @@ div.calendar>ul>ol>li:last-child:after{
   display:none;
 }
 div.calendar>ul>li:before{
-  transform:scale(1.2);
+  -webkit-transform:scale(1.2);
+      -ms-transform:scale(1.2);
+          transform:scale(1.2);
 }
 div.calendar>ul>ol>li>span>strong{
   padding-right:10px;
@@ -125,4 +142,5 @@ div.calendar>ul>li>span>p>a:nth-child(1),div.calendar>ul>ol>li>span>p>a:nth-chil
 div.calendar>ul>li>span>p>a:nth-child(2),div.calendar>ul>ol>li>span>p>a:nth-child(2){
   font-size:.8em;
   opacity:.8;
+  filter:alpha(opacity=80);
 }
