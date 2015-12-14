@@ -1,0 +1,128 @@
+*{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  font-family:"PT Sans"
+}
+div.holder{
+  position:relative;
+  height:230px;
+  min-width:100%;
+  overflow:auto;
+  background:url('background.svg') no-repeat left center / 65% auto;
+}
+div.footer{
+  position:fixed;
+  top:20px;
+  right:0;
+  width:340px;
+  height:230px;
+  background:url('footer.svg') no-repeat top center / contain;
+}
+div.calendar{
+  position:absolute;
+  bottom:0;
+  left:0;
+  white-space:nowrap;
+  background:#007DC6;
+  padding:30px 4px 4px 4px;
+}
+div.calendar>ul,div.calendar>ul>ol{
+  display:inline-block;
+}
+div.calendar>ul{
+  margin-right:40px;
+}
+div.calendar>ul>li,div.calendar>ul>ol>li{
+  position:relative;
+  vertical-align:bottom;
+  display:inline-block;
+  margin-right:16px;
+}
+div.calendar>ul>li>a{
+  position:absolute;
+  bottom:100%;
+  left:50%;
+  transform:translate(-50%,0);
+  color:white;
+  font-size:.8em;
+  transition:all 100ms ease;
+}
+div.calendar>ul>li:hover>a{
+  opacity:.3;
+}
+div.calendar>ul>li>span,div.calendar>ul>ol>li>span{
+  max-width:170px;
+  position:absolute;
+  top:0;
+  left:0;
+  transition:all 100ms ease;
+  transform:rotate(-90deg) translate(0,0);
+  transform-origin: top left;
+  visibility:hidden;
+  opacity:0;
+  background:#41B649;
+  color:white;
+  padding:4px 8px;
+  font-size:.65em;
+}
+div.calendar>ul>li:hover>span,div.calendar>ul>ol>li:hover>span{
+  visibility: visible;
+  transform:rotate(-90deg) translate(10px,0);
+  opacity:1;
+}
+div.calendar>ul>li:before,div.calendar>ul>ol>li:before{
+  display:inline-block;
+  content:"";
+  width:14px;
+  height:14px;
+  background:white;
+  border-radius:50%;
+  z-index:2;
+  position:relative;
+}
+div.calendar>ul>li[data-color=blue]:before,div.calendar>ul>ol>li[data-color=blue]:before{
+  background:#28B6E7;
+}
+div.calendar>ul>li[data-color=green]:before,div.calendar>ul>ol>li[data-color=green]:before{
+  background:#00A9A0;
+}
+div.calendar>ul>li:after,div.calendar>ul>ol>li:after{
+  display:inline-block;
+  content:"";
+  height:4px;
+  width:24px;
+  background:#F2DA71;
+  position:absolute;
+  transform:translate(0,-75%);
+  z-index:1;
+  top:50%;
+  left:50%;
+}
+div.calendar>ul>ol>li:last-child:after{
+  display:none;
+}
+div.calendar>ul>li:before{
+  transform:scale(1.2);
+}
+div.calendar>ul>ol>li>span>strong{
+  padding-right:10px;
+}
+div.calendar>ul>ol>li>span>strong,div.calendar>ul>ol>li>span>p{
+  display:inline-block;
+  vertical-align:top;
+}
+div.calendar>ul>li>span>p>a,div.calendar>ul>ol>li>span>p>a{
+  display:block;
+  white-space:normal;
+  max-width:70%;
+}
+div.calendar>ul>li>span>p>a:nth-child(1),div.calendar>ul>ol>li>span>p>a:nth-child(1){
+  min-width:100px;
+  max-width:70%;
+  white-space:normal;
+}
+div.calendar>ul>li>span>p>a:nth-child(2),div.calendar>ul>ol>li>span>p>a:nth-child(2){
+  font-size:.8em;
+  opacity:.8;
+}

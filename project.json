@@ -1,0 +1,263 @@
+{
+  "name": "Climate change forum",
+  "month": "Dec",
+  "year": "2015",
+  "timezone": "GMT+0500 (MVT)",
+  "calendar": {
+    "0": {
+      "name": "Official Handover Ceremony for Harbour LED Lights",
+      "place": "L. Maamendhoo Harbour",
+      "date": "15",
+      "color": "blue",
+      "events": {
+        "0": {
+          "name": "Arrive in L.Maamendhoo",
+          "time": "16:00"
+        },
+        "1": {
+          "name": "Commence official handover ceremony",
+          "time": "16:45"
+        },
+        "2": {
+          "name": "Recitation of Holy Quran",
+          "time": "16:55"
+        },
+        "3": {
+          "name": "Welcome Address by Laamu Atoll Council Member",
+          "person": "Mr. Ibrahim Rasheed",
+          "time": "17:00"
+        },
+        "4": {
+          "name": "Address by UN Resident Coordinator & UNDP Resident Representative",
+          "person": "Ms. Shoko Noda",
+          "time": "17:10"
+        },
+        "5": {
+          "name": "Handover of symbolic Harbor Boards",
+          "person": "Hon. Abdulla Ziyad",
+          "time": "17:25"
+        },
+        "6": {
+          "name": "Address by State Minister of Environment and Energy",
+          "person": "Hon. Abdulla Ziyad",
+          "time": "17:35"
+        },
+        "7": {
+          "name": "Switching on Harbor Led Lights",
+          "person": "Hon. Abdulla Ziyad",
+          "time": "17:45"
+        },
+        "8": {
+          "name": "Closing remarks by L. Maamendhoo Council President",
+          "person": "Mr. Ali Shifaz",
+          "time": "17:50"
+        },
+        "9": {
+          "name": "Photo Session",
+          "time": "18:00"
+        },
+        "10": {
+          "name": "Departure from L. Maamendhoo ",
+          "time": "18:30"
+        },
+        "11": {
+          "name": "Arrive in L. Gan",
+          "time": "19:00"
+        },
+        "12": {
+          "name": "Official Dinner at Amra Palace",
+          "time": "20:00"
+        }
+      }
+    },
+    "1": {
+      "name": "Opening Ceremony",
+      "place": "Amra Palace, L. Gan",
+      "date": "16",
+      "color": "green",
+      "events": {
+        "0": {
+          "name": "Arrival of Participants / Registration",
+          "time": "08:30"
+        },
+        "1": {
+          "name": "Arrival of VIPs to the venue",
+          "time": "08:55"
+        },
+        "2": {
+          "name": "Recitation of Holy Quran",
+          "time": "09:00"
+        },
+        "3": {
+          "name": "Welcome Address by Laamu Atoll Council Member",
+          "person": "Mr. Ibrahim Rasheed",
+          "time": "09:05"
+        },
+        "4": {
+          "name": "Address by Laamu Working Group President",
+          "person": "Mr. Moosa Faisal",
+          "time": "09:10"
+        },
+        "5": {
+          "name": "WHO Certificate and Kits Handover ",
+          "person": "Dr. Arvind Mathur, WHO Representative",
+          "time": "09:20"
+        },
+        "6": {
+          "name": "Statement by WHO Representative",
+          "person": "Dr. Arvind Mathur",
+          "time": "09:30"
+        },
+        "7": {
+          "name": "Certificate Handover for successful Grantees of LECReD Small Grants",
+          "person": "Grantees and Ms. Shoko Noda",
+          "time": "09:40"
+        },
+        "8": {
+          "name": "Address by UN Resident Coordinator & UNDP Resident Representative",
+          "person": "Ms. Shoko Noda",
+          "time": "10:00"
+        },
+        "9": {
+          "name": "Address by Chief Guest",
+          "person": "Hon. Abdulla Ziyad, State Minister of Environment and Energy",
+          "time": "10:15"
+        },
+        "10": {
+          "name": "Refreshments",
+          "time": "10:30"
+        },
+        "11": {
+          "name": "Opening Statement by Forum Facilitator",
+          "person": "Mr. Mauroof Ahmed, Programme Coordinator, LECReD ",
+          "time": "11:00"
+        },
+        "12": {
+          "name": "Introduction to Green Growth and LCCF2",
+          "person": "Ms. Aishath Azfa, Project Manager (LECReD), UNDP",
+          "time": "11:05"
+        },
+        "13": {
+          "name": "Laamu Atoll – The next UNESCO Biosphere Reserve?",
+          "person": "Ms. Aminath Inan Abdul Muhusin, Structural Advisor and Consultant",
+          "time": "11:15"
+        },
+        "14": {
+          "name": "Water Security for a Greener Future",
+          "person": "Mohamed Rasheed, Water Care",
+          "time": "11:30"
+        },
+        "15": {
+          "name": "Introduction of the video of LECReD Study Tour on good Agricultural Practices",
+          "person": "Ibrahim Hameed, Assistant Director, Isdhoo Council",
+          "time": "11:45"
+        },
+        "16": {
+          "name": "Lunch and Prayer Break",
+          "time": "12:00"
+        },
+        "17": {
+          "name": "Findings of the 2014 Population and Household Census",
+          "person": "Ms. Fathmath Riyaza, National Bureau of Statistics",
+          "time": "14:00"
+        },
+        "18": {
+          "name": "Energy Efficiency and Green Growth",
+          "person": "Mr. Mohamed Rasheed, Energy Expert",
+          "time": "14:20"
+        },
+        "19": {
+          "name": "Energy-Water Symbiosis",
+          "person": "Mr. Haisham Ali, STELCO Aquiva Maldives",
+          "time": "14:35"
+        },
+        "20": {
+          "name": "Waste and Green Growth",
+          "person": "Ms. Simonetta Siligato, Programme Manager, South Asia Operational Hub, UNOPS",
+          "time": "14:45"
+        },
+        "21": {
+          "name": "Prayer Break",
+          "time": "15:00"
+        },
+        "22": {
+          "name": "National Level Multi-Sector Dialogue on Green Growth and Climate Resilience",
+          "time": "15:30"
+        },
+        "23": {
+          "name": "Forum Conclusion",
+          "person": "Dr. Catarina Camarinhas, Programme Manager, LECReD",
+          "time": "16:45"
+        },
+        "24": {
+          "name": "Thank you note by UNDP",
+          "time": "17:00"
+        } ,
+        "25": {
+          "name": "Photo session",
+          "time": "17:15"
+        }
+      }
+    },
+    "3": {
+      "name": "LECReD Fair",
+      "place": "Mathimaradhoo Ekuveni. L. Gan",
+      "date": "17",
+      "color": "white",
+      "events": {
+        "0": {
+          "name": "Recitation of Holy Quran",
+          "time": "09:00"
+        },
+        "1": {
+          "name": "Statement by UNDP on LECReD Fair",
+          "person": "Aishath Azfa, Project Manager, LECReD",
+          "time": "09:05"
+        },
+        "2": {
+          "name": "Certificate handover for the best entries to LECReD Poster Competition 2015",
+          "person": "Mr. Ibrahim Rasheed, Laamu Atoll Council Member\nMr. Mohamed Shiyam, Gan Council President\nMr. Nasheeth Thoha, Assistant Resident Representative, UNDP\nDr. Catarina Camarinhas, Programme Manager, LECReD",
+          "time": "09:10"
+        },
+        "3": {
+          "name": "Statement by Judge on the LECReD Poster Competition",
+          "person": "Mr. Ali Amir, Judge, National Center for the Arts",
+          "time": "09:30"
+        },
+        "4": {
+          "name": "Refreshments",
+          "time": "09:45"
+        },
+        "5": {
+          "name": "Official Opening of LECReD Fair",
+          "person": "Mr.  Mohamed Shiyam, Gan Council President",
+          "time": "10:00"
+        },
+        "6": {
+          "name": "Launching of Make my Island",
+          "time": "10:05"
+        },
+        "7": {
+          "name": "Ten minute presentations by Fair Exhibitors",
+          "time": "10:30"
+        },
+        "8": {
+          "name": "Intermission",
+          "time": "12:00"
+        },
+        "9": {
+          "name": "Continuation of LECReD Fair",
+          "time": "16:30"
+        },
+        "10": {
+          "name": "Ten minute presentations by Fair Exhibitors",
+          "time": "16:30"
+        },
+        "11": {
+          "name": "Closing of LECReD Fair",
+          "time": "18:00"
+        }
+      }
+    }
+  }
+}
