@@ -33,6 +33,9 @@ div.calendar>ul,div.calendar>ul>ol{
 div.calendar>ul{
   margin-right:40px;
 }
+div.calendar>ul:last-child{
+  margin-right:400px;
+}
 div.calendar>ul>li,div.calendar>ul>ol>li{
   position:relative;
   vertical-align:bottom;
