@@ -12,7 +12,7 @@ div.holder{
   background:url('background.svg') no-repeat left center / 65% auto;
 }
 div.footer{
-  position:fixed;
+  position:absolute;
   top:20px;
   right:0;
   width:340px;
@@ -25,7 +25,7 @@ div.calendar{
   left:0;
   white-space:nowrap;
   background:#007DC6;
-  padding:30px 4px 4px 4px;
+  padding:30px 20px 4px 20px;
 }
 div.calendar>ul,div.calendar>ul>ol{
   display:inline-block;

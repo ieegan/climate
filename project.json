@@ -33,45 +33,58 @@
           "time": "17:10"
         },
         "5": {
+          "name": "Official Unveiling of Harbor Led Lights Board",
+          "person": "Hon. Abdulla Ziyad and Ms. Shoko Noda",
+          "time": "17:20"
+        },
+        "6": {
           "name": "Handover of symbolic Harbor Boards",
           "person": "Hon. Abdulla Ziyad",
           "time": "17:25"
         },
-        "6": {
+        "7": {
           "name": "Address by State Minister of Environment and Energy",
           "person": "Hon. Abdulla Ziyad",
           "time": "17:35"
         },
-        "7": {
+        "8": {
           "name": "Switching on Harbor Led Lights",
           "person": "Hon. Abdulla Ziyad",
           "time": "17:45"
         },
-        "8": {
+        "9": {
           "name": "Closing remarks by L. Maamendhoo Council President",
           "person": "Mr. Ali Shifaz",
           "time": "17:50"
         },
-        "9": {
+        "10": {
           "name": "Photo Session",
           "time": "18:00"
         },
-        "10": {
+        "11": {
           "name": "Departure from L. Maamendhoo ",
           "time": "18:30"
-        },
-        "11": {
-          "name": "Arrive in L. Gan",
+        }
+      }
+    },
+    "1": {
+      "name": "Official Dinner at Gan",
+      "place": "Amra Palace, L. Gan",
+      "date": "15",
+      "color": "blue",
+      "events": {
+        "0": {
+          "name": "Arrival in L. Gan",
           "time": "19:00"
         },
-        "12": {
+        "1": {
           "name": "Official Dinner at Amra Palace",
           "time": "20:00"
         }
       }
     },
-    "1": {
-      "name": "Opening Ceremony",
+    "2": {
+      "name": "Opening Ceremony, Laamu Climate Change Forum",
       "place": "Amra Palace, L. Gan",
       "date": "16",
       "color": "green",
@@ -192,7 +205,7 @@
         "24": {
           "name": "Thank you note by UNDP",
           "time": "17:00"
-        } ,
+        },
         "25": {
           "name": "Photo session",
           "time": "17:15"
