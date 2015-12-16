@@ -35,6 +35,7 @@ $( document ).ready(function() {
       $('.calendar').css('left',variable);
     });
     var interval = setInterval(function(){
+      $('.calendar>ul>ol>li').removeClass('active');
       var current = new Date();
       var boolean = true;
       $('.calendar>ul>ol>li').each(function(){
