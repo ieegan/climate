@@ -35,7 +35,6 @@ $( document ).ready(function() {
       $('.calendar').css('left',variable);
     });
     var interval = setInterval(function(){
-      $('.calendar>ul>ol>li').removeClass('active');
       var current = new Date();
       var boolean = true;
       $('.calendar>ul>ol>li').each(function(){
@@ -43,11 +42,18 @@ $( document ).ready(function() {
           var date = $(this).data('date');
           date = new Date(date);
           if(date.getTime() > current.getTime()){
-            var offset = $(this).offset();
-            var variable = position(offset.left-140);
-            if(variable<0)
-            $('.calendar').css('left',variable);
-            $(this).addClass('active');
+            var offset = $(this).prev().offset();
+            var variable = position((offset.left)/($('.calendar').width())*($('.holder').width()));
+            if($(this).hasClass('active')){
+              var activedate = $('.calendar>ul>ol>li.active').data('date');
+              activedate = new Date(activedate);
+              if(activedate.getTime() != date.getTime())
+              $('.calendar>ul>ol>li').removeClass('active');
+            }
+            if(!$(this).prev().hasClass('active')){
+                $('.calendar').css('left',variable);
+            }
+            $(this).prev().addClass('active');
             boolean = false;
           }
         }
