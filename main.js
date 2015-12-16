@@ -44,16 +44,13 @@ $( document ).ready(function() {
           if(date.getTime() > current.getTime()){
             var offset = $(this).prev().offset();
             var variable = position((offset.left)/($('.calendar').width())*($('.holder').width()));
-            if($(this).hasClass('active')){
-              var activedate = $('.calendar>ul>ol>li.active').data('date');
-              activedate = new Date(activedate);
-              if(activedate.getTime() != date.getTime())
+            if($('.calendar>ul>ol>li.active').prev().hasClass('active')){
               $('.calendar>ul>ol>li').removeClass('active');
             }
             if(!$(this).prev().hasClass('active')){
                 $('.calendar').css('left',variable);
+                $(this).prev().addClass('active');
             }
-            $(this).prev().addClass('active');
             boolean = false;
           }
         }
