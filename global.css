@@ -17,7 +17,7 @@ div.footer{
   right:0;
   width:340px;
   height:230px;
-  background:url('footer.svg') no-repeat top center / contain;
+  background:url('footer.png') no-repeat top center / contain;
 }
 div.calendar{
   position:absolute;
